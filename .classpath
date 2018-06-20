@@ -7,8 +7,13 @@
 	<classpathentry kind="src" path="src/sphinx4"/>
 	<classpathentry kind="src" path="src/jsapi"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/jsapi.jar"/>
 	<classpathentry kind="lib" path="lib/js.jar"/>
 	<classpathentry kind="lib" path="lib/junit-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kyleduckwoth/Downloads/jsr-113-0.5.1/org.jvoicexml.jsapi2.sphinx4.jar"/>
+	<classpathentry kind="lib" path="/Users/kyleduckwoth/Downloads/jsr-113-0.5.1/org.jvoicexml.jsapi2.sapi.jar"/>
+	<classpathentry kind="lib" path="/Users/kyleduckwoth/Downloads/jsr-113-0.5.1/org.jvoicexml.jsapi2.mac.jar"/>
+	<classpathentry kind="lib" path="/Users/kyleduckwoth/Downloads/jsr-113-0.5.1/org.jvoicexml.jsapi2.jar"/>
+	<classpathentry kind="lib" path="/Users/kyleduckwoth/Downloads/jsr-113-0.5.1/org.jvoicexml.jsapi2.freetts.jar"/>
+	<classpathentry kind="lib" path="/Users/kyleduckwoth/git/cmu-sphinx4/lib/jsapi.jar"/>
 	<classpathentry kind="output" path="bld"/>
 </classpath>

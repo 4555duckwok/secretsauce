@@ -18,9 +18,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.time.ZoneOffset;
-import java.time.ZonedDateTime;
-
 
 import edu.cmu.sphinx.frontend.util.Microphone;
 import edu.cmu.sphinx.recognizer.Recognizer;
@@ -66,6 +63,7 @@ public class HelloWorld {
             	while (true) {
             		a++;
             		System.out.println("eAndon Triggered " + result.getBestFinalResultNoFiller());
+            		
             		Result result2 = recognizer.recognize();
                 	
                 	if (result2 != null) {
