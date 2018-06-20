@@ -6,6 +6,6 @@
 
 grammar hello;
 
-public <greet> = (ready)|(initiate) <digit><digit><digit><digit>;
+public <greet> = (and)(on)|(initiate) <digit><digit><digit><digit>;
 <digit> =   zero | one | two | three | four | five | six | seven
   | eight | nine ;
