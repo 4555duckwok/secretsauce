@@ -6,4 +6,6 @@
 
 grammar hello;
 
-public <greet> = (Good morning | Hello) ( Bhiksha | Evandro | Paul | Philip | Rita | Will );
+public <greet> = (and) (on)|(initiate) <digit><digit><digit><digit>;
+<digit> =  zero | one | two | three | four | five | six | seven
+  | eight | nine ;
